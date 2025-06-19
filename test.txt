@@ -28,6 +28,8 @@ git push -u origin main - upload your file to the remote storage
 git clone (repository address (forked): https//) . - it is for open source, you fork the project first.
 git remote -v - see the remote storage places
 git remore add upstream (original repository address for open source project) - add the original one!
+git fetch upstream - update the original repository code
+git merge upstream/main -- merge the original code to our current code and then push
 git checkout -b (branchID?) - copy the current branch and paste onto the local storage
 
 Then normmally add, commit, push (git push -u origin kwe)
