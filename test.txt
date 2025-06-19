@@ -24,4 +24,10 @@ git branch -M main - create a main branch and switch to main
 git remote add origin (repository address: https//) - set a remote storage for this git
 git push -u origin main - upload your file to the remote storage
 
- 
+// for Open Source
+git clone (repository address (forked): https//) . - it is for open source, you fork the project first.
+git remote -v - see the remote storage places
+git remore add upstream (original repository address for open source project) - add the original one!
+git checkout -b (branchID?) - copy the current branch and paste onto the local storage
+
+Then normmally add, commit, push (git push -u origin kwe)
