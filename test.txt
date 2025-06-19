@@ -11,5 +11,17 @@ git config --global user.email "2701439703@qq.com"
 git init - initilization
 git add (. / the target file) - add the current directory's files or the target file to the git (Temporary Save)
 git commit - 1. a or i key to enter edit mode 2. Type the description 3. ESC key to exit 4. : w q -- write and quit 5. Enter key to quit
-git commit -m "The second time edit" - This is simplified version of the above one, which skips the vim mode
+git commit -m "The second time edit: fix content" - This is simplified version of the above one, which skips the vim mode
 git log
+git reset --hard (75d601f967d565e2b3cd59c1472c30a9ce2969d5) - return to the target version
+git branch (0.2) -- copy and create a branch
+git branch -a -- save and return to the main branch
+git checkout (branchID) -- switch to different branch
+git merge (branchID) -- merge different branches
+
+// Github
+git branch -M main - create a main branch and switch to main
+git remote add origin (repository address: https//) - set a remote storage for this git
+git push -u origin main - upload your file to the remote storage
+
+ 
