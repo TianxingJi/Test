@@ -3,6 +3,7 @@ ls - list file
 cd - change directory
 .. - the parent directory
 fileName - enter the file
+clear - clear all the information
 
 // And Git
 git config --global user.name "TianxingJi"
@@ -10,4 +11,5 @@ git config --global user.email "2701439703@qq.com"
 git init - initilization
 git add (. / the target file) - add the current directory's files or the target file to the git (Temporary Save)
 git commit - 1. a or i key to enter edit mode 2. Type the description 3. ESC key to exit 4. : w q -- write and quit 5. Enter key to quit
+git commit -m "The second time edit" - This is simplified version of the above one, which skips the vim mode
 git log
